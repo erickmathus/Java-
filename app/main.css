@@ -13,7 +13,7 @@ h1, .screen-grid h3{
 .screen-grid div:nth-child(1){
   font-size: 59px;
 }
-.screen-grid div:nth-child(2){
+.screen-grid > div:nth-child(2){
   border: 1px solid black;
 }
 .negative-balance {
