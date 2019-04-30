@@ -21,7 +21,7 @@ function withdrawMoney(){
     let total = parseInt(currentBal) - parseInt(amount)
   bal.innerText = total
 }
-  if (total <= 0) {
+  if (total <= -1) {
     bal.classList.add('negative-balance')
   }
   history.innerHTML += '<p>You withdrew ' + amount + '</p>'
